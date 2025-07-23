@@ -1,0 +1,427 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- For a responsive website, always include this line of code! -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Andika:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="General.css" />
+    <link rel="stylesheet" href="Style.css" />
+    <link rel="stylesheet" href="Queries.css" />
+
+
+    <title>Eddie Ray Recipes</title>
+</head>
+<body class="body">
+    <header class="header">
+        <div class="logoPic">
+            <a href="#" >
+                <img class="logo" src="img/Eddie Ray final - Header.png" alt="Eddy Ray Logo">
+            </a>
+        </div>
+        
+        
+        <div class="main-nav" id="hamburgerMenu">
+            <ul class="nav navbar-nav navbar-collapse collapse main-nav-list">
+                <li><a class="main-nav-link" href="#our-recipes">Recipes</a></li>
+                <li><a class="main-nav-link" href="#our-gallery">Photo Gallery</a></li>
+                <li><a class="main-nav-link" href="#contact-us">Contact</a></li>
+                <li><a class="main-nav-link" href="SignIn.aspx">Sign In</a></li>
+                <li><a class="main-nav-link nav-cta" href="SignUp.aspx">Sign Up</a></li>
+            </ul>
+        </div>
+        <button class="btn-mobile-nav">
+            <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+            <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+        </button>
+    </header>
+
+    <main>
+        <section class="section-hero">
+            <div class="hero">
+                <div class="hero-text-box">
+                    <h1 class="heading-primary">Recipes that will bring the restaurant home, affordably</h1>
+                    <p class="hero-description">
+                        With the current inflation rate, you never have to spend
+                        so much for a great meal at your favorite restaurant.
+                        Eddie Ray will give you full access to hundreds of easy,
+                        but finger-licking-good recipes, plus newer recipes that
+                        are added on a weekly basis!
+                    </p>
+                    <a href="SignUp.aspx" class="btn btn---cta margin-right-sm">Bring the restaurant home</a>
+                    <a href="#how-to" class="btn btn---learnMore">Learn more &darr;</a>
+                    <div class="subscribers">
+                        <div class="subscriber-imgs">
+                            <img src="img/Cutomers/lorem-face-2202.jpg" alt="subscriber photo">
+                            <img src="img/Cutomers/lorem-face-2627.jpg" alt="subscriber photo">
+                            <img src="img/Cutomers/lorem-face-296.jpg" alt="subscriber photo">
+                            <img src="img/Cutomers/lorem-face-4710.jpg" alt="subscriber photo">
+                            <img src="img/Cutomers/lorem-face-5299.jpg" alt="subscriber photo">
+                            <img src="img/Cutomers/lorem-face-955.jpg" alt="subscriber photo">
+                        </div>
+                        <p class="subscriber-text">
+                            <span>20,000+</span> subscribers recommend!
+                        </p>
+                    </div>
+                </div>
+                <div class="hero-img-box">
+
+                    <img src="img/Hero.png" class="hero-img" alt="families enjoying home cooked food at home" />
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="section-how" id="how-to">
+            <div class="container">
+                <span class="subheading">How to...</span>
+                <h2 class="heading-secondary">
+                    Bring the restaurant home in
+                    Three Simple Steps
+                </h2>
+            </div>
+            <div class="container grid grid--2--cols grid--center-v">
+                <!-- STEP 1 -->
+                <div class="step-text-box">
+                    <p class="step-number">01</p>
+                    <h3 class="heading-tertiary">Create an account</h3>
+                    <p class="step-description">
+                        The power to bring the restaurant home is at
+                        your finger tips! Build lasting bonds with your
+                        family while trying out these recipes at home!
+
+
+
+                    </p>
+                </div>
+                <div class="step-img-box">
+                    <img src="img/how to img1.JPG" class="step-img" alt="Phone app account creation
+                    screen">
+                </div>
+                <!-- STEP 2 -->
+                <div class="step-img-box">
+                    <img src="img/how to img2.JPG" class="step-img" alt="Phone app account payment
+                    screen">
+                </div>
+                <div class="step-text-box">
+                    <p class="step-number">02</p>
+                    <h3 class="heading-tertiary">Select our one plan fits all</h3>
+                    <p class="step-description">
+                        To ensure all our beloved customers have access to
+                        our hundreds of recipes, we have just one generic plan
+                        that fits all!
+                        Users can also cancel at any time.
+                    </p>
+                </div>
+                <!-- STEP 3 -->
+                <div class="step-text-box">
+                    <p class="step-number">03</p>
+                    <h3 class="heading-tertiary">Enter your payment details</h3>
+                    <p class="step-description">
+                        Your data is safe with us, because we ensure that all transactions are secure and encrypted.
+                        Enter the details of your debit/credit card and you're all set!
+                        The restaurant is finally home!
+
+                    </p>
+                </div>
+
+                <div class="step-img-box">
+                    <img src="img/how to img3.JPG" class="step-img" alt="Phone app account payment
+                    screen">
+                </div>
+            </div>
+
+        </section>
+        <section class="section-recipes" id="our-recipes">
+            <div class="container">
+                <span class="subheading">Recipes</span>
+                <h2 class="heading-secondary">
+                    We have over 100 recipes you can choose from
+                </h2>
+            </div>
+            <div class="container grid grid--3--cols">
+                <div class="recipe">
+                    <img src="img/Recipe1.jpeg" class="recipe-img" alt="Grilled Teriyaki Chicken">
+                    <p class="recipe-title">Grilled Teriyaki Chicken</p>
+                    <div class="recipe-content">
+                        <ul class="recipe-ingredients">
+                            <li class="recipe-ingredient"><img src="img/chef icon img.JPG" class="icon-img"> <strong>12</strong> oz of chicken thighs</li>
+                        </ul>
+                        <br>
+                        <span class="tag">Marinade for 24hrs:</span>
+                        <ul class="recipe-ingredients">
+                            <li class="recipe-ingredient"><img src="img/chef icon img.JPG" class="icon-img"> <strong>4</strong> oz of soy sauce</li>
+                            <li class="recipe-ingredient"><img src="img/chef icon img.JPG" class="icon-img"> <strong>4</strong> oz of pineapple juice</li>
+                            <li class="recipe-ingredient"><img src="img/chef icon img.JPG" class="icon-img"> <strong>6</strong> oz of brown sugar</li>
+                            <li class="recipe-ingredient"><img src="img/chef icon img.JPG" class="icon-img"> <strong>2</strong> garlic cloves, minced</li>
+                            <li class="recipe-ingredient"><img src="img/chef icon img.JPG" class="icon-img"> <strong>1</strong> TB ginger </li>
+                            <li class="recipe-ingredient"><img src="img/chef icon img.JPG" class="icon-img"> <strong>2</strong> TB sweet chili sauce</li>
+
+                        </ul>
+                        <br>
+                        <span class="tag">Garnish:</span>
+                        <ul class="recipe-ingredients">
+                            <li class="recipe-ingredient"><img src="img/chef icon img.JPG" class="icon-img"> Green onions</li>
+                            <li class="recipe-ingredient"><img src="img/chef icon img.JPG" class="icon-img"> Lemon or lime</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="recipe">
+                    <img src="img/Recipe2.jpeg" class="recipe-img" alt="Coconut Shrimp">
+                    <p class="recipe-title">Coconut Shrimp</p>
+                    <div class="recipe-content">
+                        <ul class="recipe-ingredients">
+                            <li class="recipe-ingredient"><img src="img/chef icon img.JPG" class="icon-img"> <strong>1</strong> lb shrimp</li>
+                        </ul>
+                        <br>
+                        <span class="tag">Egg wash:</span>
+                        <ul class="recipe-ingredients">
+                            <li class="recipe-ingredient"><img src="img/chef icon img.JPG" class="icon-img"> <strong>2</strong> eggs</li>
+                        </ul>
+                        <br>
+                        <span class="tag">Batter bowl:</span>
+                        <ul class="recipe-ingredients">
+                            <li class="recipe-ingredient"><img src="img/chef icon img.JPG" class="icon-img"> <strong>1/4</strong> cup of flour</li>
+                            <li class="recipe-ingredient"><img src="img/chef icon img.JPG" class="icon-img"> <strong>1/2</strong> tsp salt</li>
+                            <li class="recipe-ingredient"><img src="img/chef icon img.JPG" class="icon-img"> <strong>1/2</strong> tsp garlic powder</li>
+                        </ul>
+                        <br>
+                        <ul class="recipe-ingredients">
+                            <li class="recipe-ingredient"><img src="img/chef icon img.JPG" class="icon-img"> <strong>1</strong> lime</li>
+                        </ul>
+                        <br>
+                        <span class="tag">Sauce:</span>
+                        <ul class="recipe-ingredients">
+                            <li class="recipe-ingredient"><img src="img/chef icon img.JPG" class="icon-img">  Shrimp dipping sauce</li>
+                        </ul>
+                        <br>
+                        <span class="tag">Garnish:</span>
+                        <ul class="recipe-ingredients">
+                            <li class="recipe-ingredient"><img src="img/chef icon img.JPG" class="icon-img"> Lime</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="recipe-list">
+                    <h3 class="heading-tertiary">We have tasty Recipes:</h3>
+                    <ul class="list">
+                        <li class="list-item"><img src="img/chef icon img.JPG" class="icon-img"> Chipotle Burrito Bowl</li>
+                        <li class="list-item"><img src="img/chef icon img.JPG" class="icon-img"> Crab Stuffed Mushrooms</li>
+                        <li class="list-item"><img src="img/chef icon img.JPG" class="icon-img"> Clam Cakes</li>
+                        <li class="list-item"><img src="img/chef icon img.JPG" class="icon-img"> Chinese: General Tso Chicken</li>
+                        <li class="list-item"><img src="img/chef icon img.JPG" class="icon-img"> Chinese: Chicken Fried Rice</li>
+                        <li class="list-item"><img src="img/chef icon img.JPG" class="icon-img"> Chinese: Sweet 'n' Sour Chicken</li>
+                        <li class="list-item"><img src="img/chef icon img.JPG" class="icon-img"> Smash Burgers</li>
+                        <li class="list-item"><img src="img/chef icon img.JPG" class="icon-img"> Baked Potatoes</li>
+                        <li class="list-item"><img src="img/chef icon img.JPG" class="icon-img"> Home Fries</li>
+                        <li class="list-item"><img src="img/chef icon img.JPG" class="icon-img"> Miso Glazed Salmon</li>
+                        <li class="list-item"><img src="img/chef icon img.JPG" class="icon-img"> Cajun Pasta</li>
+                        <li class="list-item"><img src="img/chef icon img.JPG" class="icon-img"> Pepper Steak</li>
+                        <li class="list-item"><img src="img/chef icon img.JPG" class="icon-img"> Spicy Asian BBQ Rib Sandwich</li>
+                        <li class="list-item"><img src="img/chef icon img.JPG" class="icon-img"> Sage Fried Chicken and Waffles </li>
+                        <li class="list-item"><img src="img/chef icon img.JPG" class="icon-img"> Apple Walnut Salad</li>
+                        <li class="list-item"><img src="img/chef icon img.JPG" class="icon-img"> Shepherds Pie</li>
+
+                    </ul>
+                    <a href="SignUp.aspx" class="btn btn---cta margin-up">Bring the restaurant home</a>
+                </div>
+
+            </div>
+
+        </section>
+        <section class="section-reviews ">
+            <div class="review-container">
+
+                <span class="subheading">Reviews</span>
+                <h2 class="heading-secondary">
+                    Our recipes will change your life...
+                </h2>
+
+                <div class="reviews">
+                    <figure class="review">
+                        <img src="img/Cutomers/Dave.jpg" class="review-img" alt="Photo of customer Dave Haggerty">
+                        <blockquote class="review-text">
+                            I've made several delicious meals for my wife using these recipes and she's
+                            come to love me much more than she did when we first got married.
+                            She cannot stay mad at me whenever I make any meal using Eddie Ray Recipes.
+                            Thank you Eddie Ray, you fill my home with so much love!
+                        </blockquote>
+                        <p class="review-name">&mdash; Dave Haggerty</p>
+                    </figure>
+                    <figure class="review">
+                        <img src="img/Cutomers/Pam.jpg" class="review-img" alt="Photo of customer Pam Stone">
+                        <blockquote class="review-text">
+                            My sons do not miss our Thursday Dinner, cos they know I always
+                            make something from Eddie Ray's recipes. Their favorite so far is the
+                            Chinese Chicken fried rice. We all love Chinese, but trust me you haven't
+                            tasted any better! Thanks to Eddie, I get to see my sons more often!
+                        </blockquote>
+                        <p class="review-name">&mdash; Pam Stone</p>
+                    </figure>
+                    <figure class="review">
+                        <img src="img/Cutomers/Nina.jpg" class="review-img" alt="Photo of customer Nina Simone">
+                        <blockquote class="review-text">
+                            The very first time I used Eddie Ray's recipe, I invited my fiance (then boyfriend)
+                            for dinner at my place, I made the Chinese chicken fried rice and sweet 'n' sour chicken.
+                            While eating, he couldn't stop talking about the food. There and then, he asked me what I
+                            thought about moving in with him...fastforward to two months later, he proposed!
+                        </blockquote>
+                        <p class="review-name">&mdash; Nina Simone</p>
+                    </figure>
+                    <figure class="review">
+                        <img src="img/Cutomers/Mick.jpg" class="review-img" alt="Photo of customer Mick Schnepp">
+                        <blockquote class="review-text">
+                            A colleague from work introduced me to Eddie Ray Recipes. They are so easy to follow
+                            and you can hardly believe the tasty meals you can make at home out of very basic ingredients.
+                            My wife is always beaming with smiles whenever I use Eddie Ray...so now I'm stuck for life!
+                            You know what they say "A happy wife is a happy home".
+                        </blockquote>
+                        <p class="review-name">&mdash; Mick Schnepp</p>
+                    </figure>
+                </div>
+            </div>
+
+            <div class="gallery" id="our-gallery">
+                <figure class="gallery-item">
+                    <img src="img/food/food1.jpg" alt="Photo of beautifully arranged food">
+                </figure>
+                <figure class="gallery-item">
+                    <img src="img/food/food2.jpg" alt="Photo of beautifully arranged food">
+                </figure>
+                <figure class="gallery-item">
+                    <img src="img/food/food3.jpg" alt="Photo of beautifully arranged food">
+                </figure>
+                <figure class="gallery-item">
+                    <img src="img/food/food4.jpg" alt="Photo of beautifully arranged food">
+                </figure>
+                <figure class="gallery-item">
+                    <img src="img/food/food5.JPG" alt="Photo of beautifully arranged food">
+                </figure>
+                <figure class="gallery-item">
+                    <img src="img/food/food6.jpg" alt="Photo of beautifully arranged food">
+                </figure>
+                <figure class="gallery-item">
+                    <img src="img/food/food7.jpg" alt="Photo of beautifully arranged food">
+                </figure>
+                <figure class="gallery-item">
+                    <img src="img/food/food8.jpg" alt="Photo of beautifully arranged food">
+                </figure>
+                <figure class="gallery-item">
+                    <img src="img/food/food9.jpg" alt="Photo of beautifully arranged food">
+                </figure>
+                <figure class="gallery-item">
+                    <img src="img/food/food10.jpg" alt="Photo of beautifully arranged food">
+                </figure>
+                <figure class="gallery-item">
+                    <img src="img/food/food11.jpg" alt="Photo of beautifully arranged food">
+                </figure>
+                <figure class="gallery-item">
+                    <img src="img/food/food12.jpg" alt="Photo of beautifully arranged food">
+                </figure>
+                <!-- <figure class="gallery-item" >
+                    <img src="img/food/food13.jpg" alt="Photo of beautifully arranged food" >
+                </figure>
+                <figure class="gallery-item" >
+                    <img src="img/food/food14.jpg" alt="Photo of beautifully arranged food" >
+                </figure>
+                <figure class="gallery-item" >
+                    <img src="img/food/food15.jpg" alt="Photo of beautifully arranged food" >
+                </figure> -->
+
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" id="contact-us">
+        <div class="container grid grid--footer">
+            <div class="logo-col">
+                <a href="#" class="footer-logo">
+                    <img class="logo footer-logo-margin-sm" src="img/Eddie Ray final.png" alt="Eddy Ray Logo">
+                </a>
+
+                <ul class="social-links">
+                    <li>
+                        <a class="footer-link" href="#">
+                            <ion-icon class="social-icon" name="logo-instagram"></ion-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="footer-link" href="#">
+                            <ion-icon class="social-icon" name="logo-facebook"></ion-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="footer-link" href="#">
+                            <ion-icon class="social-icon" name="logo-twitter"></ion-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="footer-link" href="#">
+                            <ion-icon class="social-icon" name="logo-youtube"></ion-icon>
+                        </a>
+                    </li>
+                </ul>
+
+                <p class="copyright">
+                    Copyright &copy; <span class="year">2023</span> by Eddie Ray, Inc.
+                    All rights reserved.
+                </p>
+            </div>
+            <div class="address-col">
+                <p class="footer-heading">Contact Us</p>
+                <address class="contacts">
+                    <p class="address">
+                        112 Wall Street, Torrington, CT, 06790
+                    </p>
+                    <p>
+                        <a class="footer-link" href="tel:860-337-9339">860-337-9339</a><br>
+                        <a class="footer-link" href="mailto:eddieray@eddieray.com">eddieray@eddieray.com</a>
+                    </p>
+                    <p>
+
+                    </p>
+                </address>
+            </div>
+            <nav class="nav-col">
+                <p class="footer-heading">Account</p>
+                <ul class="footer-nav">
+                    <li><a class="footer-link" href="getStarted.html">Create account</a> </li>
+                    <li><a class="footer-link" href="signin.html">Sign in</a> </li>
+                    <li><a class="footer-link" href="#">iOS App</a> </li>
+                    <li><a class="footer-link" href="#">Android App</a> </li>
+                </ul>
+            </nav>
+            <nav class="nav-col">
+                <p class="footer-heading">Company</p>
+                <ul class="footer-nav">
+                    <li><a class="footer-link" href="#">About Eddie Ray</a> </li>
+                    <li><a class="footer-link" href="#">For Business</a> </li>
+                    <li><a class="footer-link" href="#">Partners</a> </li>
+                    <li><a class="footer-link" href="#">Careers</a> </li>
+                </ul>
+            </nav>
+            <nav class="nav-col">
+                <p class="footer-heading">Resources</p>
+                <ul class="footer-nav">
+                    <li><a class="footer-link" href="#">Help and Support</a> </li>
+                    <li><a class="footer-link" href="#">Privacy and Terms</a> </li>
+                    <li><a class="footer-link" href="#">Cookie Settings</a> </li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <!--<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.43/js/bootstrap-datetimepicker.min.js"></script>-->
+    <script defer src="Script.js"></script>
+</body>
+</html>

@@ -1,0 +1,150 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Andika:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="General.css" />
+    <link rel="stylesheet" href="Style.css" />
+    <link rel="stylesheet" href="Queries.css" />
+
+    <title>Eddie Ray Recipes: Sign In</title>
+</head>
+<body class="body">
+    <header class="header">
+        <a href="#">
+            <img class="logo" src="img/Eddie Ray final.png" alt="Eddy Ray Logo">
+        </a>
+        <nav class="main-nav">
+            <ul class="main-nav-list">
+                <li><a class="main-nav-link nav-cta" href="SignUp.html">Sign Up</a></li>
+                <li><a class="main-nav-link" href="Home.html">Home</a></li>
+                <li><a class="main-nav-link" href="#">About</a></li>
+                <li><a class="main-nav-link" href="#">Recipes</a></li>
+                <li><a class="main-nav-link" href="#">Photo Gallery</a></li>
+                <li><a class="main-nav-link" href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <button class="btn-mobile-nav">
+            <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+            <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+        </button>
+    </header>
+    <main>
+        <section class="section-signin">
+            <div class="container">
+                <span class="subheading">Sign In</span>
+            </div>
+            <div class="container">
+                <div class="signin-cta">
+                    <div class="account-text-box">
+                        <h2 class="heading-secondary">Sign in to access our awesome recipes!</h2>
+                        <br>
+                        <form class="signin-form" action="#">
+                            <div>
+                                <label for="email">Email Address:</label>
+                                <input id="email" type="email" placeholder="you@example.com" required>
+                            </div>
+                            <div>
+                                <label for="password">Password:</label>
+                                <input id="password" type="password" required>
+                            </div>
+                            <br>
+                            <button class="btn btn--form">Sign In</button>
+                        </form>
+                    </div>
+                    <div class="signin-img-box" role="img" aria-label="Chinese fried rise served in a pitted pineapple"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer footer--borderline-sm">
+        <div class="container grid grid--footer">
+            <div class="logo-col">
+                <a href="#" class="footer-logo">
+                    <img class="logo footer-logo-margin-xs" src="img/Eddie Ray final.png" alt="Eddy Ray Logo">
+                </a>
+
+                <ul class="social-links-sm">
+                    <li>
+                        <a class="footer-link" href="#">
+                            <ion-icon class="social-icon-sm" name="logo-instagram"></ion-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="footer-link" href="#">
+                            <ion-icon class="social-icon-sm" name="logo-facebook"></ion-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="footer-link" href="#">
+                            <ion-icon class="social-icon-sm" name="logo-twitter"></ion-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="footer-link" href="#">
+                            <ion-icon class="social-icon-sm" name="logo-youtube"></ion-icon>
+                        </a>
+                    </li>
+                </ul>
+
+                <p class="copyright copyright--sm">
+                    Copyright &copy; <span class="year">2023</span> by Eddie Ray, Inc.
+                    All rights reserved.
+                </p>
+            </div>
+            <div class="address-col">
+                <p class="footer-heading footer-heading-sm">Contact Us</p>
+                <address class="contacts">
+                    <p class="address">
+                        112 Wall Street, Torrington, CT, 06790
+                    </p>
+                    <p>
+                        <a class="footer-link" href="tel:860-337-9339">860-337-9339</a><br>
+                        <a class="footer-link" href="mailto:eddieray@eddieray.com">eddieray@eddieray.com</a>
+                    </p>
+                    <p>
+
+                    </p>
+                </address>
+            </div>
+            <nav class="nav-col">
+                <p class="footer-heading footer-heading-sm">Account</p>
+                <ul class="footer-nav footer-nav-sm">
+                    <li><a class="footer-link" href="getStarted.html">Create account</a> </li>
+                    <li><a class="footer-link" href="signup.html">Sign Up</a> </li>
+                    <li><a class="footer-link" href="#">iOS App</a> </li>
+                    <li><a class="footer-link" href="#">Android App</a> </li>
+                </ul>
+            </nav>
+            <nav class="nav-col">
+                <p class="footer-heading footer-heading-sm">Company</p>
+                <ul class="footer-nav footer-nav-sm">
+                    <li><a class="footer-link" href="#">About Eddie Ray</a> </li>
+                    <li><a class="footer-link" href="#">For Business</a> </li>
+                    <li><a class="footer-link" href="#">Partners</a> </li>
+                    <li><a class="footer-link" href="#">Careers</a> </li>
+                </ul>
+            </nav>
+            <nav class="nav-col">
+                <p class="footer-heading footer-heading-sm">Resources</p>
+                <ul class="footer-nav footer-nav-sm">
+                    <li><a class="footer-link" href="#">Help and Support</a> </li>
+                    <li><a class="footer-link" href="#">Privacy and Terms</a> </li>
+                    <li><a class="footer-link" href="#">Cookie Settings</a> </li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script defer src="Script.js"></script>
+</body>
+</html>
